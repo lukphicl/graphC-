@@ -16,6 +16,7 @@ public:
     void connect(node *map, int dist);             // Connects one node to another
     void Depth(ostream &out);                      // Performs depth-first search
     //practice new line bleh bleh blah
+    //bite me
     void Breadth(ostream &out, queue<node> &list); // Performs breadth-first search
 private:
     string val;
